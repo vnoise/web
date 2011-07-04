@@ -1,0 +1,240 @@
+
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,th,td {
+    margin:0;
+    padding:0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+}
+
+img,body,html {
+    border:0;
+}
+
+ol, ul { 
+    padding-left: 20px;    
+}
+
+caption,th {
+    text-align:left;
+}
+
+q:before,q:after {
+    content:'';
+}
+
+body {
+    line-height: 1em;
+    margin: 0;
+    font-family: Calibri, "DejaVu Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: url(/images/bg.gif); 
+    color: #3d3d3d;
+}
+
+table {
+   border-collapse: separate;
+   border-spacing: 0;
+}
+
+caption, th, td {
+    text-align: left;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 5px 0px;
+}
+
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.container { 
+    margin: 0px auto;
+    width: 941px;
+    background: #fff;
+}
+
+.content {
+    background: url(/images/container_home.png) #f2f2f2;
+    width: 895px;
+    margin: 10px 22px;
+    overflow: hidden;
+}
+
+.header {
+    width: 895px;
+    height: 90px;
+    margin: 0px 22px 15px 22px;
+    overflow: hidden;
+    border-bottom: 1px dotted #81dbb0;    
+}
+
+.header .logo {
+    float: left;
+    font-weight: bold;
+    font-size: 0px;
+    width: 248px;
+    height: 35px;
+    margin-top: 45px;
+}
+
+.header .mail {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 65px;
+}
+
+.menu {
+    margin-left: 10px;
+    height: 30px;
+    overflow: hidden;
+}
+
+.menu .item {
+    float: left;
+    margin-right: 10px;
+}
+
+.menu .item a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.center { 
+    background-repeat: no-repeat;
+    width: 895px;
+    height: 420px;
+    margin-left: 2px;
+    overflow: hidden;
+}
+
+.center .text {
+    line-height: 1.2em; 
+    text-transform: uppercase;
+    font-size: 13px;
+    float: left;
+    width: 165px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.center .text h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    background: url(/images/triangle.png) 0px 5px no-repeat;
+    padding-left: 10px;
+}
+
+.center .text p {
+    padding: 10px;
+}
+
+.center .slides { 
+    float: right;
+    margin: 10px 17px 10px 0px;
+    width: 703px;
+    height: 402px;
+}
+
+.teaser {
+    overflow: hidden;
+    padding: 15px;
+}
+
+.teaser h4 {
+    line-height: 1.5em;
+}
+
+.teaser .spacer {
+    float: left;    
+    width: 35px;
+    height: 150px;
+}
+
+.teaser .item {
+    width: 190px;
+    float: left;
+}
+
+.teaser .item a {
+    display: block;
+    width: 178px;
+    height: 107px;
+    border: 6px solid #e2e2e2;
+}
+
+.teaser .item a.active {
+    border: 6px solid #81dbb0;
+}
+
+.teaser .item .text {
+    font-size: 12px;
+    padding: 6px;
+}
+
+.footer { 
+    background: url(/images/bg.gif); 
+    overflow: hidden;
+    padding-left: 15px;
+}
+
+.footer .col { 
+    float: left;
+    padding: 35px;
+    width: 150px;
+}
+
+.footer ul { 
+    padding: 5px 0px;
+}
+
+.footer ul li { 
+    list-style-type: none;
+}
+
+.footer a { 
+    color: #666;
+    text-decoration: none;
+}
+
+.article { 
+    background-repeat: no-repeat;
+    padding: 35px;
+    overflow: hidden;
+    float:left;
+    width: 500px;
+}
+
+.article p {
+    margin: 20px 0px;
+}
+
+.sidebar { 
+    float: left;
+    width: 190px;
+}

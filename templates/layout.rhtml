@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>voidnoise - natural user interfaces</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta name="copyright" content="(c) 2010-2011 Matthias Georgi, Marco Kuhn" />
+    <meta name="author" content="Matthias Georgi, Marco Kuhn" />
+    <meta name="publisher" content="voidnoise" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 class="logo">
+          <a href="/"><img src="/images/logo.png"/></a>
+        </h1>
+        <a class="mail" href="mailto:info@voidnoise.de">
+          info@voidnoise.de
+        </a>
+      </div>
+
+      <!-- <div class="menu"> -->
+      <!--   <div class="item"> -->
+      <!--     <a href="">home</a> -->
+      <!--   </div> -->
+      <!--   <div class="item"> -->
+      <!--     <a href="">products</a> -->
+      <!--   </div> -->
+      <!--   <div class="item"> -->
+      <!--     <a href="">download</a> -->
+      <!--   </div> -->
+      <!--   <div class="item"> -->
+      <!--     <a href="">about</a> -->
+      <!--   </div> -->
+      <!-- </div> -->
+
+      <div class="content">
+        <%= @content %>
+      </div>
+
+      <div class="footer">
+        <div class="col">
+          <h4>Categories</h4>
+          <ul>
+            <li><%= link_to 'Ruby', '/categories/ruby' %></li>
+            <li><%= link_to 'Javascript', '/categories/javascript' %></li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h4>Archive</h4>
+          <ul>
+            <% for year, month in @blog.archives %>
+              <li><%= archive_link year, month %></li>
+            <% end %>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h4>Links</h4>
+          <ul>
+            <li><%= link_to 'Home', '/' %></li>
+            <li><%= link_to 'About', '/about' %></li>
+            <li><%= link_to 'Subscribe RSS', '/index.rss' %></li>          
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

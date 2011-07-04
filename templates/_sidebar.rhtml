@@ -1,0 +1,5 @@
+<ul class="sidebar">
+  <% for post in @blog.posts %>
+    <li><%= post_link post %> <%= human_date post.date %></li>
+  <% end %>
+</ul>
