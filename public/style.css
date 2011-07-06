@@ -238,3 +238,17 @@ h4 {
     float: left;
     width: 190px;
 }
+
+.about {
+    width: 825px;
+    height: 856px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 20px;
+    background: url(/images/container_about_g.jpg) #f2f2f2;   
+}
+
+.about strong {
+    font-size: 1.6em;
+}
